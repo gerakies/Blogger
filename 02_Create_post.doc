@@ -1,0 +1,1 @@
+The `create_post` function creates a new blog post file with a filename based on the current date and time. It calculates the number of days since February 10, 1956 and uses this as the start of the blog along with an abreviated date. The user is prompted to enter the content of the post, which is then written to the file.

@@ -1,0 +1,1 @@
+Logging Changes: The program maintains a log file (Blogger.log) to record all changes made to the blog posts. Each log entry includes the date, filename, action (new post, edit, append, delete, recover), and the corresponding text.

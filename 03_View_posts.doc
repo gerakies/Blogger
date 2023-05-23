@@ -1,0 +1,1 @@
+The `view_posts` function iterates through the list of blog post files and displays the content of each file using the `textwrap` module to format the text for display on the command line. This function is used to show both active blog files and archived blog files.

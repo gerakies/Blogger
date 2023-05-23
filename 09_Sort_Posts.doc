@@ -1,0 +1,1 @@
+The `sort_posts` function sorts the blog post files by filename and returns a list of filenames that end with the a supplied extension.

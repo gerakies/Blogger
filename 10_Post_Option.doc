@@ -1,0 +1,1 @@
+The `post_option` function prompts the user to enter the number of the post they want to perform an operation on. It returns the number and a list of the blog post files.

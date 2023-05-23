@@ -1,0 +1,1 @@
+The `edit_posts` function allows the user to edit the content of a selected blog post file. The user is prompted to enter new content for the post, which is then written to the file.

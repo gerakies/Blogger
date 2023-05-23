@@ -1,0 +1,1 @@
+The rename_files_function is called from the merge_all_files function and optionally renames all present .blg files to .arc effectively archiving them. These files are then available to the view_posts(".arc") call from the main menu.

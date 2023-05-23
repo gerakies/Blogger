@@ -1,0 +1,1 @@
+The merge_all_docs functions concatenates all .blg files into a line delimited text file for import to an editing program. Optionally it will call the rename function.

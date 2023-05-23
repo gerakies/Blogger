@@ -1,0 +1,3 @@
+This is a Python script for a simple command-line blog program. The script allows users to create, view, edit, append, delete, and recover blog posts. The script uses the `os` and `time` modules to interact with the operating system and display timestamps. The 'glob'2' module is used to extract file information. The `textwrap` module is used to format the text for display on the command line. The script defines several functions to handle the different operations that can be performed on the blog posts. 
+
+
