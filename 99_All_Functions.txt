@@ -1,0 +1,43 @@
+The provided Python code contains several functions related to a blogging program. Here is the documentation for each function:
+
+1. `create_post()`: This function is used to create a new blog post. It prompts the user to enter the content of the blog post and saves it to a file with a title based on the creation time. The function also calculates the day, month, and delta since the author's birthdate.
+
+2. `check_yesno(question)`: This is a sub-function that asks the user a yes/no question and returns `True` or `False` based on their response.
+
+3. `keep_headers(filename)`: This is a sub-function that preserves the first two sentences of a file when editing. It reads the file, tokenizes the text into sentences, and extracts the first two sentences.
+
+4. `rename_files(old_suffix, new_suffix)`: This sub-function renames files in the current directory by replacing the old suffix with a new suffix. It retrieves the list of files, checks if the file ends with the old suffix, constructs a new file name, and performs the renaming operation.
+
+5. `display_header()`: This sub-function displays a banner/header for the blogging program.
+
+6. `sort_posts(suffix)`: This sub-function displays the headers of all files with a specific suffix and returns a sorted list of the file names.
+
+7. `view_posts(suffix)`: This sub-function displays the content of each file with a specific suffix. It uses `sort_posts(suffix)` to retrieve the sorted list of files and prints the wrapped content of each file.
+
+8. `create_zip()`: This function allows the user to archive blog posts from a specific year into a zip file. It prompts the user to enter a year, creates a zip file with all the posts from that year, and optionally deletes the original post files.
+
+9. `count_files(file_mask)`: This sub-function counts the number of files based on a provided file mask.
+
+10. `statistics()`: This function displays statistics about the files in the current directory. It categorizes the files based on their extensions and counts the number of files in each category.
+
+11. `view_log()`: This function displays the content of the log file.
+
+12. `edit_posts(suffix)`: This function allows the user to edit a selected blog post. It prompts the user to choose a post, displays the current content, and allows them to enter new content.
+
+13. `post_option(suffix)`: This sub-function is used by `edit_posts()` and `delete_posts()` to display a numbered list of posts with a specific suffix and prompts the user to choose a post by number. It returns the selected post number and the list of files.
+
+14. `delete_posts(suffix)`: This function allows the user to delete a selected blog post. It renames the post file with a different suffix to indicate that it has been deleted.
+
+15. `recover_posts(suffix)`: This function allows the user to recover a previously deleted blog post. It renames the post file to its original suffix.
+
+16. `append_posts(suffix)`: This function allows the user to append new content to a selected blog post. It prompts the user to choose a post, displays the current content, and allows them to enter additional content.
+
+17. `write_log(filename, action, text)`: This sub-function writes log entries to a log file. It appends a log entry containing the filename, action, and additional text with a timestamp.
+
+18. `merge_all_blogs(suffix)`: This function merges all blog posts with a specific suffix into a single file named "All_Blogs.txt". It concatenates the content of the blog posts and saves them to the output file. Optionally, it can archive the individual blog posts.
+
+19. `main()`: This is the main function that runs the blogging program. It displays a menu to the user and executes the corresponding functions based on their choices.
+
+20. `additional_functions()`: This sub-function displays an additional menu with extra commands and provides options like viewing archives, file statistics, log file, and more.
+
+Please note that some functions rely on external modules such as `nltk`, `os`, `time`, `textwrap`, `datetime`, `glob2`, `password`, and `zipfile`, which are imported at the beginning of the code.
